@@ -1,0 +1,6 @@
+[permission.github.com/jace996/app-layout.post.group]
+other = "Post"
+[permission.github.com/jace996/app-layout.post.read]
+other = "Read Post"
+[permission.github.com/jace996/app-layout.post.write]
+other = "Write Post"

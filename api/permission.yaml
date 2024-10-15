@@ -1,0 +1,14 @@
+groups:
+
+  - name: "permission.github.com/jace996/app-layout.post.group"
+    def:
+      - name: "permission.github.com/jace996/app-layout.post.any"
+        namespace: "github.com/jace996/app-layout.post"
+        action: "*"
+        internal: true
+      - name: "permission.permission.read"
+        namespace: "github.com/jace996/app-layout.post"
+        action: "read"
+      - name: "permission.permission.write"
+        namespace: "github.com/jace996/app-layout.post"
+        action: "write"
