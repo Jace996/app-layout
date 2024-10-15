@@ -9,7 +9,6 @@ require (
 	github.com/flowchartsman/swaggerui v0.0.0-20221017034628-909ed4f3701b
 	github.com/go-chi/chi/v5 v5.1.0
 	github.com/go-kratos/kratos/v2 v2.8.0
-	github.com/goava/di v1.11.1
 	github.com/grpc-ecosystem/grpc-gateway/v2 v2.22.0
 	github.com/jace996/go-eventbus v0.0.7
 	github.com/jace996/go-i18n/v2 v2.2.2
@@ -70,6 +69,7 @@ require (
 	github.com/go-redis/redis/v8 v8.11.5 // indirect
 	github.com/go-resty/resty/v2 v2.7.0 // indirect
 	github.com/go-sql-driver/mysql v1.7.0 // indirect
+	github.com/goava/di v1.11.1 // indirect
 	github.com/godbus/dbus v0.0.0-20190726142602-4481cbc300e2 // indirect
 	github.com/gogo/protobuf v1.3.2 // indirect
 	github.com/golang-jwt/jwt v3.2.2+incompatible // indirect
