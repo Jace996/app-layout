@@ -3,6 +3,7 @@ package main
 import (
 	"context"
 	"flag"
+	"github.com/goava/di"
 	"os"
 	"regexp"
 	"strings"
@@ -15,9 +16,6 @@ import (
 	"github.com/go-kratos/kratos/v2/registry"
 	"github.com/go-kratos/kratos/v2/transport"
 	"github.com/go-kratos/kratos/v2/transport/grpc"
-	"github.com/jace996/saas/seed"
-	"github.com/defval/di"
-	"github.com/jace996/vfs"
 	"github.com/jace996/app-layout/api"
 	"github.com/jace996/app-layout/private/biz"
 	"github.com/jace996/app-layout/private/conf"
@@ -36,6 +34,8 @@ import (
 	"github.com/jace996/multiapp/pkg/tracers"
 	sapi "github.com/jace996/multiapp/saas/api"
 	uapi "github.com/jace996/multiapp/user/api"
+	"github.com/jace996/saas/seed"
+	"github.com/jace996/vfs"
 	"github.com/spf13/afero"
 )
 
